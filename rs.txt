@@ -1,0 +1,11 @@
+B1: clone repo: git clone https://gitlab.com/tubcvt/git-basic-ex9.git
+B2: Thay doi thong tin config:
+    git config --global user.name "Pham Du"
+    git config --global user.email "Phamdund97@gmail.com"
+    git remote set-url origin https://github.com/phamdund97/Exercise-9.git
+B3: Tien hanh merge nhanh f2 va nhanh hien tai f1: git merge f2 -> xay ra conflict tai file util.txt
+B4: Su dung git merge --abort de abort tien trinh merge vua xay ra, sau do co the dung IDE de chap nhan 
+    tat ca su thay doi, luc nay trong file util.txt tai nhanh f1 se duoc them vao; 
+    su dung vimdiff "git mergetool" -> :diffg LO -> giup thay doi tuong ung tu local va dua no vao tep merge 
+    va tien hanh merge day du cac chu nang giua confict giua 2 branch
+B5: Tien hanh push len remote.
