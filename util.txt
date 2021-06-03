@@ -1,3 +1,5 @@
 add util 1st here
 add new util 2nd in f1
 Chuc nang f1
+add new util in f2
+Chuc nang f2
